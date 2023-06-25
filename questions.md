@@ -1,9 +1,10 @@
 - What’s your input?
     - What will happen if any of the parameters:
+        - Is missing
         - Is null
-        - Is mismatch
-        - Of different type
-        - Of invalid size(length)
+        - Is mismatched
+            - Of different type
+            - Of invalid size(length)
 - What’s your logic?
     - Can some other code modify your input?
     - Which other code waits for your output?
@@ -13,9 +14,9 @@
     - Are all branches still relevant? 
 - Do you interact with data?
     - Do you CRUD data?
-    - What will happen if you lose rights to CRUD?
-    - What will happen if the data is missing?
-    - Can you distinguish between no access and no or corrupted data?
+        - What will happen if you lose rights to CRUD?
+        - What will happen if the data is missing?
+        - Can you distinguish between no access and no or corrupted data?
 - Do you loop?
     - Are you sure you’ll always exit the loop?
     - Are you sure you need to loop?
