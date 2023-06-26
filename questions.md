@@ -26,16 +26,4 @@
 - Have we handled and covered the exceptions?
 
 
-*************************
-File generation - File names
-
-- Long (256) name
-- Special characters
-- Starting with special characters
-- 
-
-
-
-
-
 
