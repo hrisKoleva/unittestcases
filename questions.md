@@ -23,3 +23,4 @@
     - Do you exit quickly on error?
     - Do you not enter the loop if it’s not necessary?
 - Does the control flow runs smoothly or you make unnecessary calls?
+- Have we handled and covered the exceptions?
