@@ -1,4 +1,4 @@
-- What’s your input?
+- Does your method have parameters?
     - What will happen if any of the parameters:
         - Is missing
         - Is null
@@ -24,3 +24,51 @@
     - Do you not enter the loop if it’s not necessary?
 - Does the control flow runs smoothly or you make unnecessary calls?
 - Have we handled and covered the exceptions?
+
+*************************
+Text Fields
+
+- Empty string
+- Single character
+- Maximum allowed/required length
+- Long text exceeding the maximum length
+- Numbers
+- Special characters, incl. Names with hyphens and apostrophes
+- Whitespace
+- Unicode characters, including non-English characters
+- SQL injection: e.g ' OR 1=1; --
+- HTML tags - e.g. <script>alert('XSS')</script>.
+- Newline characters e.g. (\n or \r\n).
+- Emoji-only input
+- 
+
+*************************
+Numeric Fields
+
+- 0
+- Random negative number
+- Is it possible to get division by zero?
+- Letters
+- Min/Max for the type of the field value
+- Exceeding Min/Max for the type of the field value
+- Missing main digit in a decimal number
+- 
+
+
+*************************
+Testing CSV upload
+
+- Non-csv extension
+- Empty CSV file
+- Header only
+- Extra comma at the end of the row
+- Decimal comma
+- Only one comma
+- 
+
+
+
+
+
+
+
