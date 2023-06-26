@@ -62,9 +62,11 @@ Testing CSV upload
 - Empty CSV file
 - Header only
 - Extra comma at the end of the row
-- Decimal comma
+- Decimal comma/dot
 - Only one comma
-- 
+- Value with special characters
+- Create new record
+- Update/Overwrite record
 
 
 
