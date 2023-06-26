@@ -27,22 +27,6 @@
 
 
 *************************
-Testing CSV upload
-
-- Non-csv extension
-- Empty CSV file
-- Header only
-- Invalid column header name
-- Less or More columns
-- Extra comma at the end of the row
-- Decimal comma/dot
-- Only one comma
-- Value with special characters
-- Create new record
-- Update/Overwrite record
-
-
-*************************
 File generation - File names
 
 - Long (256) name
