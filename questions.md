@@ -49,6 +49,7 @@ Numeric Fields
 - Random negative number
 - Is it possible to get division by zero?
 - Letters
+- Min/Max, at and around the boundaries (+/-1, +/-0.01, +/-0.001) of the value requirements
 - Min/Max for the type of the field value
 - Exceeding Min/Max for the type of the field value
 - Missing main digit in a decimal number
