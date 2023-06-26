@@ -62,6 +62,8 @@ Testing CSV upload
 - Non-csv extension
 - Empty CSV file
 - Header only
+- Invalid column header name
+- Less or More columns
 - Extra comma at the end of the row
 - Decimal comma/dot
 - Only one comma
