@@ -69,6 +69,14 @@ Testing CSV upload
 - Update/Overwrite record
 
 
+*************************
+File generation - File names
+
+- Long (256) name
+- Special characters
+- Starting with special characters
+- 
+
 
 
 
