@@ -1,1 +1,30 @@
+*************************
+Text Fields
+
+- Empty string
+- Single character
+- Maximum allowed/required length
+- Long text exceeding the maximum length
+- Numbers
+- Special characters, incl. Names with hyphens and apostrophes
+- Whitespace
+- Unicode characters, including non-English characters
+- SQL injection: e.g ' OR 1=1; --
+- HTML tags - e.g. <script>alert('XSS')</script>.
+- Newline characters e.g. (\n or \r\n).
+- Emoji-only input
+- 
+
+*************************
+Numeric Fields
+
+- 0
+- Random negative number
+- Is it possible to get division by zero?
+- Letters
+- Min/Max, at and around the boundaries (+/-1, +/-0.01, +/-0.001) of the value requirements
+- Min/Max for the type of the field value
+- Exceeding Min/Max for the type of the field value
+- Missing main digit in a decimal number
+- 
 
