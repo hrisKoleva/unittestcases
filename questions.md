@@ -25,5 +25,25 @@
 - Does the control flow runs smoothly or you make unnecessary calls?
 - Have we handled and covered the exceptions?
 
+**More questions**
 
+- [Elena Kravchenko](https://www.linkedin.com/in/elena-kravchenko/)
 
+    Input validation is a huge topic by itself:
+    You can also add negative and abuse scenarios testing aspects
+    - special characters handling ( kind of fuzzing test with different combination of characters to ensure your code can handle them w/o crashing or other misbehavior )
+    - encoding and locale aspects
+    - invalid business values - wrong dates, negative numbers, inproper file types etc ( depends on the business logic of the unit)
+    - unexpected format for formatted input ( XML, JSON etc)
+    - embed some security aspects to the test to have the real shift-left action:
+    - [OWASP Input Validation Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
+
+- [Micheal Frontner](https://www.linkedin.com/in/michael-fontner-7b8277127/)
+    - Will your code lead to unreachable functions somewhere else in the flow?
+    - Is every function called? Or is there some dead code?
+    - Have you deleted everything that is „test“ code?
+
+- [Wayne Roseberry](https://www.linkedin.com/in/wayneroseberry/)
+    - When should the code throw an exception, and what exception should that be?
+    - What should the code do if something it calls throws an exception, and which exceptions does it handle specifically?
+    - Is there logic using runtime state (e.g current time, current date, random number states, file system states, etc.) Is the test code able to forcibly control that state sufficient to test how the code handles it?
